@@ -59,44 +59,44 @@
 
 // Complex Tasks
 
-// let monthlyIncomePrompt = parseFloat(prompt("enter monthly income expenses")),
-//     savingGoalPrompt = parseFloat(prompt("enter your saving goal")),
-//     rentPrompt = parseFloat(prompt("enter rent expenses")),
-//     utilitiesPrompt = parseFloat(prompt("enter utilities expenses")),
-//     groceriesPrompt = parseFloat(prompt("enter groceries expenses")),
-//     transportationPrompt = parseFloat(prompt("enter transportation expenses")),
-//     entertainmentPrompt = parseFloat(prompt("enter entertainment expenses")),
-//     monthlyIncome = monthlyIncomePrompt,
-//     rent = rentPrompt,
-//     utilities = utilitiesPrompt,
-//     groceries = groceriesPrompt,
-//     transportation = transportationPrompt,
-//     entertainment = entertainmentPrompt,
-//     totalExpenses = rent + utilities + groceries + transportation + entertainment,
-//     remainingBalance = monthlyIncome - totalExpenses,
-//     savingGoal = savingGoalPrompt;
+let monthlyIncomePrompt = parseFloat(prompt("enter monthly income expenses")),
+    savingGoalPrompt = parseFloat(prompt("enter your saving goal")),
+    rentPrompt = parseFloat(prompt("enter rent expenses")),
+    utilitiesPrompt = parseFloat(prompt("enter utilities expenses")),
+    groceriesPrompt = parseFloat(prompt("enter groceries expenses")),
+    transportationPrompt = parseFloat(prompt("enter transportation expenses")),
+    entertainmentPrompt = parseFloat(prompt("enter entertainment expenses")),
+    monthlyIncome = monthlyIncomePrompt,
+    rent = rentPrompt,
+    utilities = utilitiesPrompt,
+    groceries = groceriesPrompt,
+    transportation = transportationPrompt,
+    entertainment = entertainmentPrompt,
+    totalExpenses = rent + utilities + groceries + transportation + entertainment,
+    remainingBalance = monthlyIncome - totalExpenses,
+    savingGoal = savingGoalPrompt;
 
-// console.log(`your monthely income is ${monthlyIncome}`);
-// console.log(`your total expenses income is ${totalExpenses}`);
-// console.log(`your total remaining balance is ${remainingBalance}`);
-// alert(`your monthely income is ${monthlyIncome}`);
-// alert(`your total expenses income is ${totalExpenses}`);
-// alert(`your total remaining balance is ${remainingBalance}`);
-// alert(`your saving goal is ${savingGoal}`)
+console.log(`your monthely income is ${monthlyIncome}`);
+console.log(`your total expenses income is ${totalExpenses}`);
+console.log(`your total remaining balance is ${remainingBalance}`);
+alert(`your monthely income is ${monthlyIncome}`);
+alert(`your total expenses income is ${totalExpenses}`);
+alert(`your total remaining balance is ${remainingBalance}`);
+alert(`your saving goal is ${savingGoal}`)
 
 
-// if (remainingBalance === 0) {
-//     alert("you have broke");
+if (remainingBalance === 0) {
+    alert("you have broke");
 
-// } else if (remainingBalance < 0) {
-//     alert("you have overspent");
+} else if (remainingBalance < 0) {
+    alert("you have overspent");
 
-// } else if (remainingBalance >= savingGoal) {
-//     alert("congratulations for achieving your goal");
+} else if (remainingBalance >= savingGoal) {
+    alert("congratulations for achieving your goal");
 
-// } else {
-//     alert("you have saved money this month")
-// }
+} else {
+    alert("you have saved money this month")
+}
 
 
 
