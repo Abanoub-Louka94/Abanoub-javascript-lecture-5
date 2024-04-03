@@ -59,22 +59,16 @@
 
 // Complex Tasks
 
-let monthlyIncomePrompt = parseFloat(prompt("enter monthly income expenses")),
-    savingGoalPrompt = parseFloat(prompt("enter your saving goal")),
-    rentPrompt = parseFloat(prompt("enter rent expenses")),
-    utilitiesPrompt = parseFloat(prompt("enter utilities expenses")),
-    groceriesPrompt = parseFloat(prompt("enter groceries expenses")),
-    transportationPrompt = parseFloat(prompt("enter transportation expenses")),
-    entertainmentPrompt = parseFloat(prompt("enter entertainment expenses")),
-    monthlyIncome = monthlyIncomePrompt,
-    rent = rentPrompt,
-    utilities = utilitiesPrompt,
-    groceries = groceriesPrompt,
-    transportation = transportationPrompt,
-    entertainment = entertainmentPrompt,
+let monthlyIncome = parseFloat(prompt("enter monthly income expenses")),
+    savingGoal = parseFloat(prompt("enter your saving goal")),
+    rent = parseFloat(prompt("enter rent expenses")),
+    utilities = parseFloat(prompt("enter utilities expenses")),
+    groceries = parseFloat(prompt("enter groceries expenses")),
+    transportation = parseFloat(prompt("enter transportation expenses")),
+    entertainment = parseFloat(prompt("enter entertainment expenses")),
     totalExpenses = rent + utilities + groceries + transportation + entertainment,
-    remainingBalance = monthlyIncome - totalExpenses,
-    savingGoal = savingGoalPrompt;
+    remainingBalance = monthlyIncome - totalExpenses;
+
 
 console.log(`your monthely income is ${monthlyIncome}`);
 console.log(`your total expenses income is ${totalExpenses}`);
