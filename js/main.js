@@ -82,7 +82,7 @@ console.log(`your total remaining balance is ${remainingBalance}`);
 alert(`your monthely income is ${monthlyIncome}`);
 alert(`your total expenses income is ${totalExpenses}`);
 alert(`your total remaining balance is ${remainingBalance}`);
-alert(`your saving goal is ${savingGoal}`)
+alert(`your saving goal is ${savingGoal}`);
 
 
 if (remainingBalance === 0) {
@@ -95,7 +95,7 @@ if (remainingBalance === 0) {
     alert("congratulations for achieving your goal");
 
 } else {
-    alert("you have saved money this month")
+    alert("you have saved money this month");
 }
 
 
